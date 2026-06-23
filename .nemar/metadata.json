@@ -1,36 +1,102 @@
 {
   "version": "2.0",
-  "dataset_id": "on004012",
-  "source": "openneuro",
-  "source_id": "ds004012",
+  "pipeline_stage": "validated",
   "title": "BRAR_NQ",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Nur Syairah Ab Rani": {},
     "Nurfaizatul Aisyah Ab Aziz": {},
     "Mohammed Farouq Reza": {},
     "Muzaimi Mustapha": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004012.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004012",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004012",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1007/978-981-287-778-9_15",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/sdata.2018.110",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "meg"
-  ],
-  "datatypes": [
-    "meg"
   ],
   "funding_references": [
     {
-      "funder_name": "The study has been funded by the USM Research Grant for Fundamental Neuroscience–Neurobehaviour (BrainReward and Anti-Reward) (1002/CNEURO/910114) and USM Research University Grant (1001.PPSP.812189)"
+      "funder_name": "Universiti Sains Malaysia",
+      "award_number": "1002/CNEURO/910114",
+      "award_title": "Research Grant for Fundamental Neuroscience–Neurobehaviour (BrainReward and Anti-Reward)"
+    },
+    {
+      "funder_name": "Universiti Sains Malaysia",
+      "award_number": "1001.PPSP.812189",
+      "award_title": "Research University Grant"
     }
   ],
-  "acknowledgements": "This work was supported by the Universiti Sains Malaysia (USM)."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "meg"
+  ],
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fif",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "BRAR_NQ is a neuroimaging dataset investigating the neural correlates of Quranic recitation. The study explores the brain's reward and anti-reward circuitry during exposure to melodic recitation of the Quran, utilizing magnetoencephalography (MEG) to uncover the neural mechanisms underlying this unique auditory-linguistic experience.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "magnetoencephalography"
+    },
+    {
+      "term": "reward processing"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "Quran recitation"
+    },
+    {
+      "term": "neural circuitry"
+    },
+    {
+      "term": "neurobehavior"
+    },
+    {
+      "term": "religious neuroscience"
+    },
+    {
+      "term": "brain reward circuitry"
+    }
+  ],
+  "source_hash": "4806ed1a0a0431233b5e3ef57011ca892ae82d38062b4a11ad18808dbbb11377"
 }
