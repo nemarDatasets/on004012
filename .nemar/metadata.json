@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BRAR_NQ",
+  "description": "BRAR_NQ is a neuroimaging dataset investigating the neural correlates of Quranic recitation through magnetoencephalography (MEG) recordings. The dataset explores the brain's reward and anti-reward circuitry during exposure to melodic recitation of the Noble Quran, combining MEG neuroimaging to map neural activity patterns associated with this unique auditory-linguistic stimulus.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +11,30 @@
     "Mohammed Farouq Reza": {},
     "Muzaimi Mustapha": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004012.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "Quran recitation"
+    },
+    {
+      "term": "reward processing"
+    },
+    {
+      "term": "neural circuitry"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "melodic processing"
+    },
+    {
+      "term": "religious stimulus"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004012",
       "identifier_type": "URL",
@@ -40,6 +59,11 @@
       "identifier": "10.1038/sdata.2018.110",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004012.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -55,48 +79,19 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "84.1 GB (295 files)"
   ],
   "formats": [
     ".fif",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "BRAR_NQ is a neuroimaging dataset investigating the neural correlates of Quranic recitation. The study explores the brain's reward and anti-reward circuitry during exposure to melodic recitation of the Quran, utilizing magnetoencephalography (MEG) to uncover the neural mechanisms underlying this unique auditory-linguistic experience.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "magnetoencephalography"
-    },
-    {
-      "term": "reward processing"
-    },
-    {
-      "term": "auditory processing"
-    },
-    {
-      "term": "Quran recitation"
-    },
-    {
-      "term": "neural circuitry"
-    },
-    {
-      "term": "neurobehavior"
-    },
-    {
-      "term": "religious neuroscience"
-    },
-    {
-      "term": "brain reward circuitry"
-    }
-  ],
-  "source_hash": "4806ed1a0a0431233b5e3ef57011ca892ae82d38062b4a11ad18808dbbb11377"
+  "source_hash": "ceef78d4ff192ddcbc536db19f4eb8b093258b1e0174e00b558f39882a09f0b2"
 }
