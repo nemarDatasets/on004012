@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "BRAR_NQ",
-  "description": "BRAR_NQ is a neuroimaging dataset investigating the neural correlates of Quranic recitation through magnetoencephalography (MEG) recordings. The dataset explores the brain's reward and anti-reward circuitry during exposure to melodic recitation of the Noble Quran, combining MEG neuroimaging to map neural activity patterns associated with this unique auditory-linguistic stimulus.",
+  "description": "BRAR_NQ is a neuroimaging dataset investigating the neural correlates of Quranic recitation through EEG recordings. The dataset explores the brain's reward and anti-reward circuitry in response to melodic recitation of the Noble Quran, combining electroencephalography to map neural activity patterns associated with this unique auditory-linguistic stimulus.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,25 +13,27 @@
   },
   "keywords": [
     {
-      "term": "MEG"
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "reward processing",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012201"
+    },
+    {
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+    },
+    {
+      "term": "neural circuitry",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009415"
     },
     {
       "term": "Quran recitation"
-    },
-    {
-      "term": "reward processing"
-    },
-    {
-      "term": "neural circuitry"
-    },
-    {
-      "term": "auditory processing"
-    },
-    {
-      "term": "melodic processing"
-    },
-    {
-      "term": "religious stimulus"
     }
   ],
   "related_identifiers": [
